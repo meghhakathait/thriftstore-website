@@ -8,9 +8,14 @@
     /* overflow:hidden; */
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 header {
     height: 80px;
-    width: 98vw;
+    /* width: 98vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +23,9 @@ header {
     font-size: 17px;
     padding: 0px 40px;
     font-family: "Poppins", "Bubblegum Sans", "Gravitas One", "Alfa Slab One", serif;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 ul {
@@ -32,6 +40,7 @@ ul a {
     text-decoration: none;
 }
 
+
 .login {
     font-size: 13px;
     font-weight: 300;
@@ -45,7 +54,7 @@ ul a {
 .hero-section {
     height: 95vh;
     /* width: 98vw; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../thriftdakaits/img/bg/bg1.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg/bg1.jpeg');
     background-position: top;
     background-size: cover;
     color: white;
@@ -85,7 +94,7 @@ button:hover {
 
 
 .products {
-    height: 700px;
+    height: 680px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -98,7 +107,7 @@ button:hover {
 .men-sec {
     height: 580px;
     width: 620px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../thriftdakaits/img/men/men\ \(2\).jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/men/men\ \(2\).jpg");
     background-position: bottom;
     background-size: cover;
     padding-top: 12rem;
@@ -112,7 +121,7 @@ button:hover {
 .women-sec {
     height: 580px;
     width: 620px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../thriftdakaits/img/women/women\ \(5\).jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/women/women\ \(5\).jpg");
     background-position: center;
     background-size: cover;
     padding-top: 12rem;
@@ -127,14 +136,14 @@ button:hover {
 
 
 .featured-pro {
-    height: 1350px;
+    height: 1300px;
     text-align: center;
     font-family: "Poppins", serif;
 }
 
 .featured-pro h1 {
     font-size: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .products-card {
@@ -142,7 +151,6 @@ button:hover {
     justify-content: center;
     gap: 8px;
     padding-top: 12px;
-    position: relative;
 }
 
 .img-container {
@@ -150,7 +158,6 @@ button:hover {
     width: 280px;
     border: 1px solid rgb(230, 230, 230);
     box-shadow: 10px 10px 20px rgba(155, 154, 154, 0.25);
-    ;
 }
 
 .img-container p {
@@ -160,8 +167,9 @@ button:hover {
 
 
 
+
 .service {
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,7 +214,7 @@ button:hover {
 
 
 .categories {
-    height: 1200px;
+    height: 1120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,7 +226,7 @@ button:hover {
 .denim-card {
     height: 600px;
     width: 82%;
-    background-image: url("../thriftdakaits/img/men/men\ \(7\).jpg");
+    background-image: url("img/men/men\ \(7\).jpg");
     background-position: top;
     background-size: cover;
     font-family: "Poppins";
@@ -285,16 +293,16 @@ button:hover {
 
 
 #box1 {
-    background-image: url("../thriftdakaits/img/cap/cap\ \(4\).jpg");
+    background-image: url("img/cap/cap\ \(4\).jpg");
 }
 
 #box2 {
-    background-image: url("../thriftdakaits/img/hoodie/hoodie\ \(5\).jpg");
+    background-image: url("img/hoodie/hoodie\ \(5\).jpg");
     background-position: center;
 }
 
 #box3 {
-    background-image: url("../thriftdakaits/img/tshirt/tshirt.jpg");
+    background-image: url("img/tshirt/tshirt.jpg");
 }
 
 
@@ -307,25 +315,165 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../thriftdakaits/img/bg/bg6.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg/bg6.jpeg");
     background-position: center;
     background-size: cover;
     border-radius: 40px;
+    margin-bottom: 100px;
 }
 
 .msg-container {
     height: 200px;
     width: 40vw;
     font-size: 14px;
-    font-weight: 600;
-    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(253, 239, 221);
     box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.25);
     border-radius: 10px;
     gap: 15px;
-    padding: 30px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.newsletter {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-top: dotted rgb(233, 233, 233);
+    font-family: "Poppins";
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+.newsletter p {
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+    padding-bottom: 18px;
+    padding-right: 15px;
+}
+
+.newsletter-container {
+    width: 700px;
+    font-size: 20px;
+}
+
+
+.newsletter-container form {
+    display: flex;
+    gap: 15px;
+}
+
+.newsletter-container form input {
+    width: 20vw;
+    padding: 12px 15px 12px 15px;
+}
+
+.newsletter-container button {
+    padding: 0 15px 0 15px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+/* button {
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: brown;
+} */
+
+.newsletter-container button:hover {
+    background-color: white;
+    color: black;
+    transform: none;
+}
+
+.details {
+    width: 200px;
+}
+
+.details h3 {
+    font-size: 16px;
+}
+
+
+footer {
+    height: 550px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(104, 102, 102);
+    gap: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 14px;
+}
+
+.address {
+    width: 350px;
+    font-size: 14px;
+    padding-right: 13px;
+}
+
+.address p {
+    transition: color .5s;
+    padding: 0 0 12px 0;
+}
+
+.address p:hover {
+    color: rgb(170, 168, 168);
+}
+
+
+.links {
+    width: 140px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 10px;
+    transition: color 5s;
+}
+
+.links a {
+    color: rgb(107, 172, 172);
+}
+
+.links a:hover {
+    color: rgb(170, 168, 168);
+}
+
+
+.bottom-line {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bottom-line p {
+    padding-bottom: 30px;
+}
+
+.bottom-line i {
+    margin: 10px;
+}
+
+.bottom-line i:hover {
+    color: rgb(110, 3, 48);
 }
