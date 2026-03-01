@@ -14,7 +14,7 @@ a {
 }
 
 header {
-    height: 80px;
+    height: 90px;
     /* width: 98vw; */
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,8 @@ ul a {
 }
 
 .hero-img {
-    height: 700px;
+    height: 730px;
+    border-top: dotted rgb(233, 233, 233);
 }
 
 .hero-section {
@@ -66,28 +67,33 @@ ul a {
     padding-left: 60px;
     align-items: flex-start;
     gap: 10px;
+    margin-top: 40px;
 }
 
 button {
     border: none;
-    padding: 10px;
-    border-radius: 12px;
+    padding: 12px;
+    border-radius: 10px;
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     background-color: brown;
+    transition: all .5s;
 }
 
 button:hover {
-    transform: scale(1.1);
+background-color: rgb(133, 155, 253);
+color: white;
+    /* transform: scale(1.1); */
 }
 
 .hero-section h1 {
+    font-size: 2.5rem;
     color: coral;
 }
 
 .hero-section h4 {
-    color: darkkhaki;
+    color: rgb(238, 226, 58);
 }
 
 
@@ -350,7 +356,9 @@ button:hover {
     gap: 3rem;
     padding-top: 5rem;
 }
-
+.newsletter h1{
+    color: darkcyan;
+}
 .newsletter p {
     color: rgb(141, 141, 141);
     font-size: 14px;
@@ -365,21 +373,22 @@ button:hover {
 
 
 .newsletter-container form {
-    display: flex;
-    gap: 15px;
+    /* display: flex; */
+    
 }
 
 .newsletter-container form input {
     width: 20vw;
     padding: 12px 15px 12px 15px;
+    margin-right: 10px;
 }
 
 .newsletter-container button {
-    padding: 0 15px 0 15px;
+    padding: 7px 15px 10px 15px;
     border: none;
     border: 1px solid black;
     border-radius: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     transition: all 1s;
 }
@@ -420,6 +429,7 @@ footer {
 }
 
 .footer {
+    width: 90vw;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -477,3 +487,95 @@ footer {
 .bottom-line i:hover {
     color: rgb(110, 3, 48);
 }
+
+
+
+
+
+
+.hero-bg {
+    height: 600px;
+    border-top: dotted rgb(233, 233, 233);
+}
+
+.hero-container {
+    height: 70vh;
+    /* width: 98vw; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg/bg5.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+    font-family: "Google Sans";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+
+.hero-container p {
+    font-family: "Google Sans";
+    font-size: 2rem;
+    color: white;
+}
+
+
+.contact {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.form-container input, textarea,select{
+    padding: 10px;
+}
+
+.form-container button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    transition: all 0.5s;
+    transform: none;
+}
+.form-container button:hover{
+     color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.info{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 30px;
+}
+.follow-links{
+    display: flex;
+    gap: 15px;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+
+
