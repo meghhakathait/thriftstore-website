@@ -428,7 +428,7 @@ footer {
     gap: 50px;
 }
 
-.footer {
+.footer-custom {
     width: 90vw;
     display: flex;
     justify-content: center;
@@ -576,6 +576,10 @@ footer {
     gap: 80px;
 }
 
+
+.contact-grp{
+    display: flex;
+}
 
 
 
